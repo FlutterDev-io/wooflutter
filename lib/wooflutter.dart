@@ -1,0 +1,3 @@
+library wooflutter;
+
+class WooFlutter {}
