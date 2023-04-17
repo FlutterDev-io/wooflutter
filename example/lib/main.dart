@@ -6,13 +6,6 @@ void main() {
   runApp(MyApp());
 }
 
-Future<void> auth() async {
-  final authService = AuthService('https://yourapi.com');
-  final token = await authService.login('user@example.com', 'password');
-  final isLoggedIn = await authService.isLoggedIn(token);
-  await authService.logout(token);
-}
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
