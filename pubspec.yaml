@@ -1,6 +1,6 @@
 name: wooflutter
 description: Providing integration with WooCommerce REST API.
-version: 0.0.1
+version: 0.0.2
 homepage: null
 
 environment:
